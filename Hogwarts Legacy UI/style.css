@@ -1,0 +1,175 @@
+ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Overpass', sans-serif;
+  }
+
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  #video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(69, 65, 65, 0.4); /* Brown overlay color with 0.5 opacity */
+    z-index: 1;
+  }
+
+  #content {
+    position: relative;
+    z-index: 1;
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+
+  #content img {
+    max-width: 20%; /* Adjust the width as per your requirement */
+    height: auto;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+   /* Additional style for the top-left text */
+    #top-left-text {
+      position: absolute;
+      top: 2rem;
+      left: 4rem;
+      color: white; /* Change the text color as needed */
+      font-size: 1.2em; /* Adjust the font size as needed */
+    }
+    
+    #top-right-text {
+      position: absolute;
+      top: 2rem;
+      right: 4rem;
+      color: white; /* Change the text color as needed */
+      font-size: 1.2em; /* Adjust the font size as needed */
+    }
+    .custom-border {
+      display: inline-block;
+      padding-top: 15px;
+      padding-left: 15px;
+      padding-right:15px;
+      padding-bottom:10px;
+      border: 2px solid white;
+      border-radius: 10px;
+      text-align: center;
+    }
+    
+   canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: none; /* Add this line to allow events to pass through */
+  }
+  
+  #bottomImage {
+      position: fixed;
+      bottom: 0rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      max-height: 80vh;
+      mix-blend-mode: normal;
+    }
+
+    .black-box {
+      position: fixed;
+      top: 40%;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+      border-top-right-radius: 80px 80px;
+      z-index: 1;
+    }
+    
+    .black-box1 {
+      position: fixed;
+      top: 40%;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+     border-top-left-radius: 80px 80px;
+      z-index: 1;
+    }
+    
+    
+    .black-box2 {
+      position: fixed;
+      top: 55%;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+     border-top-right-radius: 80px 80px;
+      z-index: 1;
+    }
+    
+    
+    .black-box3 {
+      position: fixed;
+      top: 55%;
+      transform: translateY(-50%);
+      width: 400px;
+      height: 100px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      line-height: 100px;
+     border-top-left-radius: 80px 80px;
+      z-index: 1;
+    }
+
+    .black-box.left {
+      left: 0;
+    }
+
+    .black-box1.right {
+      right: 0;
+    }
+    
+    .black-box2.left {
+      right: 0;
+    }
+    
+    .black-box3.right {
+      right: 0;
+    }
