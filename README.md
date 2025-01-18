@@ -7,3 +7,5 @@ Here is a collection of UI Designs that i've created or worked upon..
 <img src="https://i.imgur.com/wsxvJ4G.jpg">
 <img src="https://i.imgur.com/zwoRMRN.png">
 <img src="https://github.com/PranavSatav/UI-Designs/blob/main/Works-Screenshot.png">
+<img src="https://github.com/PranavSatav/UI-Designs/blob/main/Portfolio-UI/SS-1.png">
+<img src="https://github.com/PranavSatav/UI-Designs/blob/main/Portfolio-UI/SS-2.png">
